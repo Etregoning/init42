@@ -1,1 +1,5 @@
-hostname newname
+hostname new_name
+
+// what command you should use to change the name of the system
+
+//But it will say "Operation is not permitted" we are not the owners))

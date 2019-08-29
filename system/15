@@ -1,1 +1,3 @@
 pkill tail
+
+// kills the background process

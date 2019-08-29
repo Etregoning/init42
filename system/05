@@ -1,1 +1,3 @@
 service ssh status
+
+// name the command that shows the status of SSH service.

@@ -1,1 +1,3 @@
-ps aux
+top
+
+// will show currently running process 

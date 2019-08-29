@@ -1,1 +1,25 @@
 fdisk -l
+
+  //output:
+   fdisk: illegal option -- l
+usage: fdisk [-ieu] [-f mbrboot] [-c cyl -h head -s sect] [-S size] [-r] [-a style] disk
+	-i: initialize disk with new MBR
+	-u: update MBR code, preserve partition table
+	-e: edit MBRs on disk interactively
+	-f: specify non-standard MBR template
+	-chs: specify disk geometry
+	-S: specify disk size
+	-r: read partition specs from stdin (implies -i)
+	-a: auto-partition with the given style
+	-d: dump partition table
+	-y: don't ask any questions
+	-t: test if disk is partitioned
+`disk' is of the form /dev/rdisk0.
+auto-partition styles:
+  boothfs     8Mb boot plus HFS+ root partition (default)
+  hfs         Entire disk as one HFS+ partition
+  dos         Entire disk as one DOS partition
+  raid        Entire disk as one 0xAC partition
+
+
+   //Name the command that lists the partition tables of drives?

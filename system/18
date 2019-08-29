@@ -1,1 +1,8 @@
-iptables -A INPUT -s 10.0.0.0/8 -j ACCEPT
+/etc/init.d/sshd stop
+
+//commands to start, stop, and restart the sshd service:
+// kill = stop ))))))
+
+/etc/init.d/sshd start
+/etc/init.d/sshd stop
+/etc/init.d/sshd restart

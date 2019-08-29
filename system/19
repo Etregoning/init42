@@ -1,1 +1,6 @@
-iptables -P INPUT DROP
+ls /etc/rc*.d
+
+#rc - runcom or run commands - scripts that run during boot
+#Number after the letter is the order in which they run -runlevel
+#systemctl list-units --type service
+#all services that has been loaded at boot and are active

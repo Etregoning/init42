@@ -1,1 +1,4 @@
-uptime --since
+uptime
+
+
+// will show you the time when your computer was last started.

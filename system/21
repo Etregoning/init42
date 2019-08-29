@@ -1,0 +1,7 @@
+w
+
+who
+
+getent passwd | grep home | cut -d: -f1
+
+// all 3 options give a real user on VM

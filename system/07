@@ -1,1 +1,4 @@
 cat /var/run/sshd.pid
+
+//find the PID of SSHD service
+// my output on debian was: 331

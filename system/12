@@ -1,1 +1,8 @@
-du /var
+du -h
+
+
+// gives you the size of a file in the system
+//in my case is 24K
+
+//Figure out the exact size of each folder of /var in a 
+//humanly understandable way followed by the path of it.

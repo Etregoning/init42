@@ -1,1 +1,3 @@
 service ssh restart
+
+//write a command that restarts the SSH service

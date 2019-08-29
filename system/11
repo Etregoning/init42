@@ -1,1 +1,12 @@
-df
+df -h
+
+//output: available space on the system
+
+
+Filesystem             Size   Used  Avail Capacity   iused      ifree %iused  Mounted on
+/dev/disk0s2          141Gi   87Gi   53Gi    63%   1560030 4293407249    0%   /
+devfs                 194Ki  194Ki    0Bi   100%       670          0  100%   /dev
+/dev/disk0s4          558Gi  5.8Gi  552Gi     2%     55027 4294912252    0%   /Volumes/Storage
+/dev/disk0s5          232Gi  298Mi  231Gi     1%       253 4294967026    0%   /Volumes/Data
+map auto_nfs            0Bi    0Bi    0Bi   100%         0          0  100%   /nfs
+nfs-student-1-1:/nfs   18Ti   15Ti  2.4Ti    86% 209811823   95258257   69%   /nfs
