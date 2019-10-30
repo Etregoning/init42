@@ -1,5 +1,1 @@
-Server:		10.51.1.253
-Address:	10.51.1.253#53
-
-81.1.51.10.in-addr.arpa	name = dpm-master.42.us.org.
-
+Local DNS entries are located in the /etc/resolv.conf file.
